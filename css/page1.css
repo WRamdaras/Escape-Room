@@ -1,0 +1,54 @@
+html { 
+    background: url(/img/PAGEE1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .text span {
+    opacity: 0;
+ }
+ .text span.revealed {
+    opacity: 1;
+ }
+ .text span.green {
+    color: #27ae60;
+ }
+ .text span.red {
+    color: #ff0000;
+ }
+ 
+ 
+ /* Demo styles */
+ body {
+    background: #8e9081;
+    padding: 0.5em;
+    font-family: 'Sora', monospace;
+ }
+ .text {
+    font-size: 6;
+    word-spacing: 0.2em;
+    margin: 0 auto;
+    background: #fff;
+    padding: 1em;
+    border-bottom: 1vw solid #7b8388;
+    position:relative;
+    line-height: 1.2em;
+ }
+ .corner {
+    position:absolute;
+    width: 10vw;
+    right:2vw;
+    bottom:0;
+    transform: translateY(80%); 
+ }
+ .key1 {
+   position: absolute;
+   bottom: 8px;
+   left: 50%;
+   font-size: 18px;
+ }
+ .key1:hover {
+   background-color: rgb(177, 178, 129);
+ }

@@ -1,0 +1,63 @@
+html { 
+    background: url(/img/zeus.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .text span {
+    opacity: 0;
+ }
+ .text span.revealed {
+    opacity: 1;
+ }
+ .text span.green {
+    color: #27ae60;
+ }
+ .text span.red {
+    color: #ff0000;
+ }
+ 
+ 
+ /* Demo styles */
+ body {
+    background: #8e9081;
+    padding: 0em;
+    font-family: 'Sora', monospace;
+ }
+ .text {
+    font-size: 6;
+    word-spacing: 0.2em;
+    margin: 5 auto;
+    background: #fff;
+    padding: 1em;
+    border-bottom: 1vw solid #7b8388;
+    position:relative;
+    line-height: 1.2em;
+ }
+ .corner {
+    position:absolute;
+    width: 5vw;
+    right:2vw;
+    bottom:0;
+    transform: translateY(80%); 
+ }
+ .swordkey{
+   float: left;
+   margin: 20px;
+ }
+ .birdos{
+   margin-right: 10%;
+   float: right;
+   margin-top: 150px;
+ }
+ .sun{
+float: right;
+margin-top: 70px;
+margin-right: 1;
+ }
+ .statue{
+   float: left;
+   margin-left: 80%;
+ }

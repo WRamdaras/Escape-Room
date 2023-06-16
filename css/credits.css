@@ -1,0 +1,48 @@
+body {
+    background:#000;
+    font-family:San Serif, Helvetica;
+    color:#e0e0e0;
+    text-transform:uppercase;
+    text-align:center;
+    margin:0;
+    padding:0;
+    color:#d3d3d3;
+  }
+  .label {
+    font-size:.75rem;
+  }
+  .intro {
+    margin-left:-2.5rem;
+  }
+  .director {
+    margin-top:1rem;
+    letter-spacing:.3rem;
+  }
+  
+  .crew > div:nth-child(odd) {
+    text-align:right;
+  }
+  .crew > div:nth-child(even) {
+    text-align:left;
+  }
+  .credits {
+    -webkit-animation:180s scrollUp forwards;
+    -moz-animation:180s scrollUp forwards;
+  }
+  
+  @-webkit-keyframes scrollUp {
+    from {
+      margin-top:0rem;
+    }
+    to {
+       margin-top:-100rem;
+    }
+  }
+  @-moz-keyframes scrollUp {
+    from {
+      margin-top:0rem;
+    }
+    to {
+       margin-top:-100rem;
+    }
+  }

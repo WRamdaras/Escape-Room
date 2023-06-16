@@ -1,0 +1,77 @@
+.thorImg {
+   float: right;
+   width: 100%;
+   z-index: 100;
+}
+
+.text span {
+   opacity: 0;
+   z-index: 3;
+}
+
+.text span.revealed {
+   opacity: 1;
+   z-index: 3;
+}
+
+.text span.green {
+   color: #27ae60;
+   z-index: 3;
+}
+
+.text span.red {
+   color: #ff0000;
+   z-index: 3;
+}
+
+
+/* Demo styles */
+body {
+   background: #8e9081;
+   padding: 0.5em;
+   font-family: 'Sora', monospace;
+}
+
+.text {
+   font-size: 6;
+   word-spacing: 0.2em;
+   margin: 0 auto;
+   background: #fff;
+   padding: 0.5em;
+   border-bottom: 1vw solid #7b8388;
+   position: relative;
+   line-height: 1.2em;
+   z-index: 3;
+}
+
+.corner {
+   position: absolute;
+   width: 10vw;
+   right: 2vw;
+   bottom: 0;
+   transform: translateY(80%);
+   z-index: 3;
+}
+
+.thorkellbutton {
+   margin: 0;
+   position: absolute;
+   top: 70%;
+   left: 45%;
+   bottom: 50%;
+   -ms-transform: translateY(-50%);
+   transform: translateY(-50%);
+   z-index: 3;
+
+}
+
+.key3 {
+   margin: 0;
+   position: absolute;
+   top: 20%;
+   left: 45%;
+   bottom: 90%;
+   -ms-transform: translateY(-50%);
+   transform: translateY(-50%);
+   z-index: 1;
+}
